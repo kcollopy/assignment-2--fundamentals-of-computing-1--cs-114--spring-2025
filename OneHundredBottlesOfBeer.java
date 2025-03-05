@@ -23,11 +23,12 @@ public class OneHundredBottlesOfBeer {
 
       numBottles = numBottles - 1;
     }
+    
   System.out.println("1 bottle of beer on the wall,");
   System.out.println("1 bottle of beer on the wall.");
   System.out.println("If it should happen to fall");
   System.out.println("no more bottles of beer on the wall,");
   System.out.println("no more bottles of beer.");
-  System.out.println("Go to the store and buy some more.");
+  System.out.println("Go to the store and buy some more...");
   }
 }
