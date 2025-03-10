@@ -6,63 +6,41 @@ public class TheTwelveDaysOfChristmas {
       switch (day) {
         case 1:
           System.out.print("1st");
-
            break;
-
         case 2:
           System.out.print("2nd");
-
           break;
-
         case 3:
           System.out.print("3rd");
-
           break;
-      
          case 4:
           System.out.print("4th");
-
           break;
-
         case 5:
           System.out.print("5th");
-
           break;
-
         case 6:
           System.out.print("6th");
-
           break;
-      
         case 7:
           System.out.print("7th");
-
           break;
-
         case 8:
           System.out.print("8th");
-
           break;
-
         case 9:
           System.out.print("9th");
-
           break;
-
         case 10:
           System.out.print("10th");
-
           break;
-      
         case 11:
           System.out.print("11th");
-
           break;
-
          case 12:
           System.out.print("12th");
       }
-      System.out.println(" day of Christmas my true love gave to me, ");
+      System.out.println(" day of Christmas, my true love gave to me: ");
 
       switch (day) {
         case 12:
@@ -84,7 +62,7 @@ public class TheTwelveDaysOfChristmas {
         case 4:
         System.out.println("Four calling birds,");
         case 3:
-        System.out.println("Three french hens,");
+        System.out.println("Three French hens,");
         case 2:
         System.out.println("Two turtle doves, and");
         case 1:

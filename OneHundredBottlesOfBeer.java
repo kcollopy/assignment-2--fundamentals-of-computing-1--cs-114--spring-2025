@@ -7,7 +7,7 @@ public class OneHundredBottlesOfBeer {
 
     Scanner scan = new Scanner(System.in);
 
-    System.out.println("Enter number of verses of 100 Bottles of Beer on the Wall that would you like to print (1 to " + MAX_BOTTLES + "):");
+    System.out.println("Enter number of verses of 100 Bottles of Beer on the Wall that you would like to print (1 to " + MAX_BOTTLES + "):");
     numBottles = scan.nextInt();
 
     while(numBottles <  1 || numBottles > MAX_BOTTLES){
@@ -27,8 +27,8 @@ public class OneHundredBottlesOfBeer {
   System.out.println("1 bottle of beer on the wall,");
   System.out.println("1 bottle of beer on the wall.");
   System.out.println("If it should happen to fall");
-  System.out.println("no more bottles of beer on the wall,");
-  System.out.println("no more bottles of beer.");
+  System.out.println("No more bottles of beer on the wall,");
+  System.out.println("No more bottles of beer.");
   System.out.println("Go to the store and buy some more...");
   }
 }

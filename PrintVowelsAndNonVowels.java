@@ -8,7 +8,7 @@ public class PrintVowelsAndNonVowels {
     int iCounter = 0;
     int oCounter = 0;
     int uCounter = 0;
-    int spaceCounter = 0;
+    int letterCounter = 0;
     int numVowels;
     int numConsonant;
 
@@ -35,15 +35,18 @@ public class PrintVowelsAndNonVowels {
       }
 
       if(sentence.charAt(i) == 'u'){
-        uCounter ++;
+        uCounter++;
       }
-       
-      if(sentence.charAt(i) == ' '){
-        spaceCounter++;
+
+      if((sentence.charAt(i) >= 'a' && sentence.charAt(i) <= 'z') || (sentence.charAt(i) >= 'B' && sentence.charAt(i) <= 'Z')){ //Counting all the letters excluding uppercase vowels
+       if(!(sentence.charAt(i) == 'E' || sentence.charAt(i) == 'I' || sentence.charAt(i) == 'O' || sentence.charAt(i) == 'U')){
+        letterCounter++;
+       }
       }
     }
-    numVowels = aCounter + eCounter + iCounter + oCounter + uCounter;
-    numConsonant = sentence.length() - numVowels - spaceCounter;
-    System.out.println("The sentence you entered has " + numVowels + " lower case vowels and " + numConsonant + " of consonants ");
+    numVowels = aCounter + eCounter + iCounter + oCounter + uCounter;  
+    numConsonant = letterCounter - numVowels;
+
+    System.out.println("The sentence you entered has " + numVowels + " lowercase vowels and " + numConsonant + " consonants ");
   }
 }

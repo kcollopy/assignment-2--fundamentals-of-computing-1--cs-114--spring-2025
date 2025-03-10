@@ -6,7 +6,7 @@ public class CountFlips {
     
     myCoin = new Coin();
 
-      while (count<=100) {
+      while (count < 100) {
         myCoin.flip();
 
           if (myCoin.isHeads()){
@@ -16,8 +16,7 @@ public class CountFlips {
 
         count++;
       }
-      
-        System.out.print("The coin landed on heads " + headCount  + " times and landed on tails " + (100 - headCount) + " out of 100 coin flips");
+        System.out.println("The coin landed on heads " + headCount  + " times and on tails " + (100 - headCount) + " out of 100 coin flips");
 
   }
 }
