@@ -14,6 +14,7 @@ public class OneHundredBottlesOfBeer {
       System.out.print("Invalid input. Please reenter: ");
       numBottles = scan.nextInt(); 
     }
+    scan.close();
   
     while (numBottles > 1){
       System.out.println(numBottles +" bottles of beer on the wall,");

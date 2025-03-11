@@ -1,8 +1,7 @@
 public class CountFlips {
   public static void main(String[] args) {
     Coin myCoin;
-    int count = 0;
-    int headCount = 0;
+    int count = 0, headCount = 0;
     
     myCoin = new Coin();
 
